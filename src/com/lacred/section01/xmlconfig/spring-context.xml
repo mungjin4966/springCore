@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="member" class="com.lacred.section01.xmlconfig.MemberDTO">
+		<!-- 현재 부분은 생성자에 따라서 오류가 발생된다 
+			이유는 현재 있는 인자를 기준으로 잡고 있는 생성자를 호출하기 때문이다.
+		 -->
+	</bean>
+</beans>
