@@ -1,4 +1,4 @@
-package com.lacred.section02.javaconfig;
+package com.lacred.chap02.section01.javaconfig;
 
 public class MemberDTO {
 

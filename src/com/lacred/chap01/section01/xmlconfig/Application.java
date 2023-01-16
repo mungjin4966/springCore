@@ -1,4 +1,5 @@
-package com.lacred.section01.xmlconfig;
+package com.lacred.chap01.section01.xmlconfig;
+
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;

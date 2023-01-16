@@ -1,4 +1,4 @@
-package com.lacred.section02.javaconfig;
+package com.lacred.chap01.section02.javaconfig;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
