@@ -9,6 +9,7 @@
 	<configs>
 		<config>src/com/lacred/chap02/section02/xmlconfig/spring-context01.xml</config>
 		<config>src/com/lacred/chap02/section02/xmlconfig/spring-context02.xml</config>
+		<config>src/com/lacred/chap03/xmlconfig/config/spring-context.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

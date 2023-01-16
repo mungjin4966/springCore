@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="accountGenerator" class="com.lacred.chap03.xmlconfig.PersonalAccount">
+		<constructor-arg index="0" value ="10"/>
+		<constructor-arg name="accNo" value="110-223-213123123"/>
+		<constructor-arg name="accPwd" ><value>1234</value></constructor-arg>
+	</bean>
+	
+	<bean id="memberGenerator" class="com.lacred.chap03.xmlconfig.Member">
+		<constructor-arg name="sequence" value="1"/>
+		<constructor-arg name="name" value="홍길"/>
+		<constructor-arg name="phone" value="010-2322-2323"/>
+		<constructor-arg name="email" value="hong123@naver.com"/>
+		<constructor-arg name="personalAccount" ref="accountGenerator"/>
+	</bean>
+	
+</beans>
