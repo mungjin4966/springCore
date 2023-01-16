@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 아래의 <bean태그는 beans:beans가 맞으니 Xmlns 설정으로 기본설정 한개 등록이 가능하며 해당 등록은 하게 되면 기본 태그가 Beans로 설정이 되게 된다. -->
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<context:component-scan base-package="com.lacred.chap02.section02.xmlconfig"></context:component-scan>
+</beans>
